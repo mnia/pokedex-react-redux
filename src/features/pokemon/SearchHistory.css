@@ -1,0 +1,34 @@
+.history {
+    width: 100%;
+}
+
+.history ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.history li {
+    padding: 4px;
+}
+
+.history a:link, a:visited {
+    color: #3399ff;
+    padding: 8px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .history a:hover, a:active {
+    background-color: #f0c14b;
+    border-radius: 5px;
+    color: black;
+  }
+
+  .history .empty {
+    text-align: center;
+    color: #999;
+    font-size: 15px;
+  }
