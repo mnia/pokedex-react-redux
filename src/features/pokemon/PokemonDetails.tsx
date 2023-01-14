@@ -25,7 +25,10 @@ export const PokemonDetails = () => {
             <Container style={{ width: "100%" }}>
                 <Row>
                     <Col xs={12}>
-                        <h4 style={{ fontSize: "30px" }}>{`${pokemon.name} #${paddedId}`}</h4>
+                        <h4 style={{ fontSize: "30px" }}>
+                            {`${pokemon.name}`}
+                            <span style={{ color: "#777", marginLeft: "20px" }}>{`#${paddedId}`}</span>
+                        </h4>
                     </Col>
                 </Row>
                 <Row>
@@ -46,12 +49,15 @@ export const PokemonDetails = () => {
                     </Col>
                     <Col xs={12} md={6} lg={4}>
                         <div className="details-container">
-                            <p><span className="subtitle">Type</span>
-                                {pokemon.types.map((item: any) => item.type.name).join(', ')}
-                            </p>
                             <p><span className="subtitle">Abilities</span>{abilities}</p>
                             <p><span className="subtitle">Height</span>{pokemon.height}</p>
                             <p><span className="subtitle">Weight</span>{pokemon.weight}</p>
+                        </div>
+                        <div className="type-container">
+                            <span className="subtitle">Type</span>
+                            {pokemon.types.map((item: any) =>
+                                <span key={item.type.name} className="pill">{item.type.name}</span>
+                            )}
                         </div>
                     </Col>
                 </Row>
