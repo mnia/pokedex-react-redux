@@ -8,9 +8,14 @@ const Layout = () => {
     return (
         <div className="main">
             <nav className="navbar">
-                <Link to="/">
-                    <h1 style={{ margin: 0 }}>Pokedex</h1>
-                </Link>
+                <div className="logo">
+                    <Link to="/">
+                        <h1 style={{
+                            color: "#777",
+                            fontSize: "40px",
+                        }}>Pokedex</h1>
+                    </Link>
+                </div>
             </nav>
             <Outlet />
         </div>

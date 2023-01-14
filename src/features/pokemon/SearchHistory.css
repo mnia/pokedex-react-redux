@@ -13,7 +13,7 @@
     padding: 4px;
 }
 
-.history a:link, a:visited {
+.history a:link, .history a:visited {
     color: #3399ff;
     padding: 8px;
     text-align: left;
@@ -21,7 +21,7 @@
     display: inline-block;
   }
   
-  .history a:hover, a:active {
+  .history a:hover, .history a:active {
     background-color: #f0c14b;
     border-radius: 5px;
     color: black;
