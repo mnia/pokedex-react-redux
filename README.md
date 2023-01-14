@@ -16,5 +16,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * display list of Pokemons
 * Search with autocomplete
 * Caching using React ToolBox Query
-* Search history
+* Search history using Redux
+
+## Missing Features
+* various details (stats, moves, species, sprites, weaknesses)
+* evolution
+* better styling (specially in details page)
+* tests
+* preventing duplicate entry in history
 
