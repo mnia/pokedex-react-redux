@@ -13,7 +13,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Implemented Features
 * display list of Pokemons
 * Search with autocomplete
-* Caching using React ToolBox Query
+* Caching using Redux ToolBox Query
 * Search history using Redux
 * Simple details page
 
