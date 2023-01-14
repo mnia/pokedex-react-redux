@@ -19,9 +19,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Search history using Redux
 
 ## Missing Features
-* various details (stats, moves, species, sprites, weaknesses)
-* evolution
-* better styling (specially in details page)
-* tests
-* preventing duplicate entry in history
+* Various details (stats, moves, species, sprites, weaknesses)
+* Evolution
+* Better styling (specially in details page)
+* Tests
+* Preventing duplicates in history
 
