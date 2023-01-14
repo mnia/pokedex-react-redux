@@ -1,4 +1,4 @@
-# Pokedex App with React/Redux 
+# Pokedex App with React/Redux/Typescript
 ### Coding exercise by Mohammad Nia
 
 ## Available Scripts
@@ -15,6 +15,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Search with autocomplete
 * Caching using React ToolBox Query
 * Search history using Redux
+* Simple details page
 
 ## Missing Features
 * Various details (stats, moves, species, sprites, weaknesses)
