@@ -14,7 +14,9 @@ const searchSlice = createSlice({
     initialState,
     reducers: {
         addSearch: (state, action: PayloadAction<string>) => {
-            state.searchHistory.push(action.payload)
+            if (!state.searchHistory.includes(action.payload)) {
+                state.searchHistory.push(action.payload)
+            }
         }
     }
 })
