@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-export const pokemonApi = createApi({
-  reducerPath: 'pokemonApi',
+export const apiSlice = createApi({
+  reducerPath: 'api',
   baseQuery: fetchBaseQuery({ baseUrl: 'https://pokeapi.co/api/v2/' }),
   endpoints: builder => ({
     getPokemon: builder.query({
@@ -14,4 +14,4 @@ export const pokemonApi = createApi({
   })
 })
 
-export const { useGetPokemonQuery, useGetPokemonsQuery } = pokemonApi
+export const { useGetPokemonQuery, useGetPokemonsQuery } = apiSlice

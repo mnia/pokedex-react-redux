@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { Container, Row, Col } from 'react-grid-system';
 
 import { addSearch } from '../search/searchSlice';
-import { useGetPokemonsQuery } from './pokemonSlice';
+import { useGetPokemonsQuery } from '../api/apiSlice';
 import Search from '../search/Search';
 import SearchHistory from '../search/SearchHistory';
 import { PokemonType as Pokemon } from '../../types';

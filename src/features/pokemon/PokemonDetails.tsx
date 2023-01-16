@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { Container, Row, Col } from 'react-grid-system';
 import NotFound from "../../components/NotFound";
-import { useGetPokemonQuery } from './pokemonSlice';
+import { useGetPokemonQuery } from '../api/apiSlice';
 import './PokemonDetails.css';
 
 export const PokemonDetails = () => {
