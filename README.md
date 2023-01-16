@@ -16,11 +16,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 * Caching using Redux ToolBox Query
 * Search history using Redux
 * Simple details page
+* Test for adding to search history
 
 ## Missing Features
 * Various details (stats, moves, species, sprites, weaknesses)
 * Evolution
 * Better styling (specially in details page)
-* Tests
 * Preventing duplicates in history
 
