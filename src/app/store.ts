@@ -1,6 +1,6 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import { pokemonApi } from '../features/pokemon/pokemonSlice';
-import searchReducer from '../features/pokemon/pokemonSlice';
+import searchReducer from '../features/search/searchSlice';
 
 export const store = configureStore({
   reducer: {
