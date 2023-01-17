@@ -27,5 +27,4 @@ Runs the tests.
 * Various details (stats, moves, species, sprites, weaknesses)
 * Evolution
 * Better styling (specially in details page)
-* Preventing duplicates in history
 
